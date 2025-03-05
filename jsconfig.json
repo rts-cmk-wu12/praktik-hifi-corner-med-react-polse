@@ -22,6 +22,9 @@
             ],
             "~frongtpageshop/*": [
                 "src/style/frongtpageshop/*"
+            ],
+            "~home/*": [
+                "src/components/home/*"
             ]
         }
     }
