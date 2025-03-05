@@ -1,0 +1,73 @@
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  width: 90%;
+  margin: 0 auto;
+
+  @media (max-width: 1024px) {
+      grid-template-columns: repeat(3, 1fr);
+  }
+
+  @media (max-width: 768px) {
+      grid-template-columns: repeat(2, 1fr);
+  }
+
+  @media (max-width: 480px) {
+      grid-template-columns: repeat(1, 1fr);
+  }
+}
+
+/* Grid Items */
+.grid-item {
+  position: relative;
+  overflow: hidden;
+
+  a {
+      display: block;
+      text-decoration: none;
+      color: inherit;
+  }
+
+  img {
+      width: 100%;
+      height: auto;
+      display: block;
+      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
+      transition: transform 0.3s ease;
+  }
+
+  figcaption {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      color: #fff;
+      font-size: 1.4rem;
+      text-align: center;
+      text-transform: uppercase;
+      text-decoration: underline;
+      padding: 5px 10px;
+      border-radius: 5px;
+  }
+}
+
+/* Button */
+.shop-now {
+  color: #fff;
+  border: none;
+  padding: 15px 20px;
+  cursor: pointer;
+  background-color: #685324;
+  font-size: 1.6rem;
+  text-transform: uppercase;
+  font-family: 'Museo Sans Rounded 500';
+  transition: background-color 0.3s ease;
+}
+
+.button-item {
+  background-color: #a39161;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+}
