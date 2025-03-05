@@ -1,11 +1,11 @@
-
+import Hero from "~components/front-page/hero";
 
 function Home() {
   return (
     <>
-  
-      <main></main>
-      
+      <main>
+        <Hero />
+      </main>
     </>
   );
 }
