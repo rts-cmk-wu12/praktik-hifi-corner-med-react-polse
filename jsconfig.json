@@ -19,6 +19,9 @@
             ],
             "~/*": [
                 "src/*"
+            ],
+            "~frongtpageshop/*": [
+                "src/style/frongtpageshop/*"
             ]
         }
     }
