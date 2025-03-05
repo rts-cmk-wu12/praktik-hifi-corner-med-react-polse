@@ -24,7 +24,10 @@
                 "src/style/frongtpageshop/*"
             ],
             "~home/*": [
-                "src/components/home/*"
+                "src/components/front-page/*"
+            ],
+            "~front-page/*": [
+                "src/components/front-page/*"
             ]
         }
     }
