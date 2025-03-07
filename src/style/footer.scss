@@ -1,11 +1,6 @@
-header {
-  font-family: "Roboto", sans-serif;
-}
-
 .footer {
   list-style: none;
   padding: 1em;
-  font-family: "Roboto", sans-serif;
   background-color: #a39161;
 
   &__container {
@@ -31,7 +26,7 @@ header {
 
     &-left {
       display: flex;
-      align-items: center;
+      align-items: start;
       gap: 1.5em;
       text-align: center;
       width: 100%;
@@ -48,11 +43,15 @@ header {
         width: auto;
       }
 
-      ul {
-        font-weight: 600;
-        list-style: none;
+      address {
         font-size: clamp(10px, 1.5vw, 12px);
-        margin: 0;
+        font-weight: 600;
+        font-style: normal;
+      }
+
+      span {
+        font-size: clamp(10px, 1.5vw, 12px);
+        color: white;
       }
     }
 
@@ -102,6 +101,13 @@ header {
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
+
+    ul {
+      display: flex;
+      gap: 0.5em;
+      list-style: none;
+      margin: 0;
+    }
 
     @media (min-width: 480px) {
       width: auto;

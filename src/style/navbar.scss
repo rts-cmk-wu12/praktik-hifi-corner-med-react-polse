@@ -8,7 +8,7 @@
   gap: 2em;
 
   p {
-    font-size: 1.2em;
+    font-size: 2rem;
     color: white;
     align-items: center;
     display: flex;
@@ -18,16 +18,16 @@
     text-decoration: none;
     display: flex;
     align-items: center;
-    font-size: 12px;
+    font-size: 1.2rem;
     color: white;
-    gap: 10px;
+    gap: 1rem;
     padding: 0.5em;
     background-color: #1ba4f3;
     border: none;
     border-radius: 5px;
 
     &-email {
-      font-size: 15px;
+      font-size: 1.5rem;
     }
   }
 
@@ -37,7 +37,7 @@
 }
 
 .navbar {
-  font-size: 13px;
+  font-size: 1.3rem;
   justify-content: center;
   align-items: center;
   background-color: black;
@@ -72,26 +72,26 @@
 
 .navlink {
   display: flex;
-  gap: 20px;
+  gap: 2rem;
 }
 
 @media screen and (max-width: 768px) {
   .topnav {
     flex-direction: column;
-    gap: 10px;
+    gap: 1rem;
     padding: 0.5em;
 
     p {
-      font-size: 1em;
+      font-size: 2rem;
     }
 
     &__button {
-      font-size: 12px;
+      font-size: 1.2rem;
       padding: 0.4em;
-      gap: 10px;
+      gap: 1rem;
 
       &-email {
-        font-size: 15px;
+        font-size: 1.5rem;
       }
     }
   }
@@ -99,12 +99,12 @@
   .navbar {
     justify-content: start;
     padding: 2em;
-    font-size: 12px;
+    font-size: 1.2rem;
 
     &__list {
       display: flex;
       flex-direction: column;
-      gap: 1em;
+      gap: 1rem;
       padding: 0;
       text-align: center;
       opacity: 0;
@@ -128,18 +128,18 @@
   .burger-menu {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: 0.6rem;
     cursor: pointer;
   }
 
   .burger-bar {
-    width: 25px;
-    height: 3px;
+    width: 2.5rem;
+    height: 0.3rem;
     background-color: white;
     transition: all 0.3s ease-in-out;
 
     &.open:nth-child(1) {
-      transform: rotate(45deg) translate(7px, 7px);
+      transform: rotate(45deg) translate(0.7rem, 0.7rem);
     }
 
     &.open:nth-child(2) {
@@ -147,7 +147,7 @@
     }
 
     &.open:nth-child(3) {
-      transform: rotate(-50deg) translate(6px, -6px);
+      transform: rotate(-50deg) translate(0.6rem, -0.6rem);
     }
   }
 
@@ -161,23 +161,23 @@
     padding: 0.3em;
 
     p {
-      font-size: 0.9em;
+      font-size: 0.9rem;
     }
 
     &__button {
-      font-size: 11px;
+      font-size: 1.1rem;
       padding: 0.3em;
-      gap: 5px;
+      gap: 0.5rem;
     }
   }
 
   .navbar {
     padding: 2.5em;
     align-items: start;
-    font-size: 11px;
+    font-size: 1.1rem;
 
     &__list {
-      gap: 1.8em;
+      gap: 1.8rem;
     }
   }
 }
