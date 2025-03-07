@@ -8,11 +8,20 @@ import {
 import { TbWorld as WorldPay } from "react-icons/tb";
 // Socials
 import {
+  FaBlogger as Blogger,
+  FaSquareFacebook as Facebook2,
+  FaSquareTwitter as Twitter2,
+} from "react-icons/fa6";
+import {
   FaFacebookF as Facebook,
   FaYoutube as Youtube,
   FaTwitter as Twitter,
   FaLinkedin as LinkedIN,
   FaInstagram as Instagram,
+} from "react-icons/fa";
+import {
+  FaAngleRight as ArrowRight,
+  FaAngleLeft as ArrowLeft,
 } from "react-icons/fa";
 
 //Navbar
@@ -43,4 +52,9 @@ export {
   WorldPay,
   Instagram,
   Email2,
+  Blogger,
+  Facebook2,
+  Twitter2,
+  ArrowRight,
+  ArrowLeft,
 };

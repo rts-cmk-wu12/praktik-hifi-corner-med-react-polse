@@ -28,6 +28,15 @@
             ],
             "~front-page/*": [
                 "src/components/front-page/*"
+            ],
+            "~fonts/*": [
+                "src/fonts/*"
+            ],
+            "~museo-sans-rounded/*": [
+                "src/fonts/museo-sans-rounded/*"
+            ],
+            "~museo-sans-rounded-webfont/*": [
+                "src/fonts/museo-sans-rounded-webfont/*"
             ]
         }
     }

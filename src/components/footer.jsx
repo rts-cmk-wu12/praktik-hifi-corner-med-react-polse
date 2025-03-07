@@ -8,22 +8,23 @@ function Footer() {
     <footer className="footer">
       <div className="footer__container">
         <div className="footer__container-left">
-          <ul className="footer__list">
-            <li className="footer__list-item">Hi-Fi Corner</li>
-            <li className="footer__list-item">
-              Edinburgh 2 Joppa Road EH15 2EU
-            </li>
-            <li className="footer__list-item">Falkirk 44 Cow Wynd FK1 1PU</li>
-          </ul>
+          <address>
+            Hi-Fi Corner
+            <br />
+            2 Joppa Road, EH15 2EU, Edinburgh
+            <br />
+            44 Cow Wynd, FK1 1PU, Falkirk
+          </address>
 
-          <div className="footer__links">
+          <nav className="footer__links">
             <Link to="/returns-refunds" className="footer__link">
-              Returns & Refunds <span className="footer__separator">| </span>
+              Returns & Refunds
             </Link>
+            <span className="footer__separator"> | </span>
             <Link to="/privacy-policy" className="footer__link">
               Privacy Policy
             </Link>
-          </div>
+          </nav>
         </div>
 
         <div className="footer__container-right">
@@ -32,39 +33,57 @@ function Footer() {
             <Visa className="footer__payment-icon" />
             <MasterCard className="footer__payment-icon" />
             <Jcb className="footer__payment-icon" />
-            <PayPal className="footer__payment-icon" />{" "}
+            <PayPal className="footer__payment-icon" />
           </div>
 
-          <div className="footer__socials">
-            <a
-              href="https://www.facebook.com/HiFiCorner"
-              className="footer__social-link"
-              target="_blank"
-            >
-              <Facebook />
-            </a>
-            <a
-              href="https://www.youtube.com/channel/UCY21Dx3ibHem-kL3G0hmOmQ"
-              className="footer__social-link"
-              target="_blank"
-            >
-              <Youtube />
-            </a>
-            <a
-              href="https://x.com/hifi_corner"
-              className="footer__social-link"
-              target="_blank"
-            >
-              <Twitter />
-            </a>
-            <a
-              href="https://www.instagram.com/hifi_corner/"
-              className="footer__social-link"
-              target="_blank"
-            >
-              <Instagram />
-            </a>
-          </div>
+          <nav className="footer__socials">
+            <ul className="footer__social-list">
+              <li>
+                <a
+                  href="https://www.facebook.com/HiFiCorner"
+                  className="footer__social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Facebook"
+                >
+                  <Facebook />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.youtube.com/channel/UCY21Dx3ibHem-kL3G0hmOmQ"
+                  className="footer__social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="YouTube"
+                >
+                  <Youtube />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://x.com/hifi_corner"
+                  className="footer__social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Twitter"
+                >
+                  <Twitter />
+                </a>
+              </li>
+              <li>
+                <a
+                  href="https://www.instagram.com/hifi_corner/"
+                  className="footer__social-link"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  aria-label="Instagram"
+                >
+                  <Instagram />
+                </a>
+              </li>
+            </ul>
+          </nav>
         </div>
       </div>
     </footer>

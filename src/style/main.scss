@@ -1,4 +1,8 @@
 @use "./frongtpageshop/shopgrid.scss";
+@use "./front-page/hero.scss";
+
+@import url(../fonts/museo-sans-rounded-webfont/style.css);
+
 * {
   padding: 0;
   margin: 0;
@@ -7,4 +11,8 @@
 
 html {
   font-size: 62.5%;
+}
+
+body {
+  font-family: "Museo Sans Rounded 100";
 }
