@@ -60,7 +60,7 @@ function Navbar() {
             </li>
             <li>
               <NavLink
-                to="/brand-page"
+                to="/brand"
                 className={({ isActive }) =>
                   `navbar__link navbar__link${isActive ? "--active" : ""}`
                 }

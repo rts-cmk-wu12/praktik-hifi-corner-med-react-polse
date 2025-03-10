@@ -6,7 +6,7 @@ function Home() {
       <main>
         <section className="hero">
           <div className="hero-overlay">
-            <img src="/images/logo.png" alt="Website Logo" />
+            <img src="/images/logo.svg" alt="Website Logo" />
           </div>
         </section>
 
