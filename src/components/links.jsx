@@ -2,6 +2,7 @@
 export default function Productlinks() {
   return (
     <>
+    <div className="shop-page">
       <section className="grid-container" aria-label="Audio Shop Categories">
         <div className="grid-item">
           <a href="">
@@ -103,6 +104,7 @@ export default function Productlinks() {
           <button class="shop-now">SHOP NOW</button>
         </div>
       </section>
+      </div>
     </>
   )
 }

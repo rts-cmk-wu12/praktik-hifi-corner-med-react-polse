@@ -8,6 +8,9 @@
             "~components/*": [
                 "src/components/*"
             ],
+            "~fonts/*": [
+                "src/fonts/*"
+            ],
             "~pages/*": [
                 "src/pages/*"
             ],
@@ -20,8 +23,8 @@
             "~/*": [
                 "src/*"
             ],
-            "~fonts/*": [
-                "src/fonts/*"
+            "~about/*": [
+                "src/style/about/*"
             ]
         }
     }
