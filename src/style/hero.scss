@@ -63,7 +63,6 @@
 
 .info__content {
   display: flex;
-  align-items: center;
   justify-content: center;
   width: 100%;
   padding: 5rem 0;
@@ -79,7 +78,7 @@
     .article-link {
       text-decoration: none;
       color: #a29061;
-      border: white 1.9px solid;
+      border: white 0.05rem inset;
       padding: 0.5rem 2rem;
       font-size: 2rem;
       margin-bottom: 0.75rem;
