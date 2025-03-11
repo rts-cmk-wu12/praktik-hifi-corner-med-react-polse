@@ -37,6 +37,9 @@
             ],
             "~museo-sans-rounded-webfont/*": [
                 "src/fonts/museo-sans-rounded-webfont/*"
+            ],
+            "~about/*": [
+                "src/style/about/*"
             ]
         }
     }
