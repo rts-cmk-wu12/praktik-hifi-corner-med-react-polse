@@ -33,7 +33,7 @@ import { GrLocation as LocationMark } from "react-icons/gr";
 import { LuPhone as Phone } from "react-icons/lu";
 import { TfiEmail as Email } from "react-icons/tfi";
 import { IoMailSharp as Email2 } from "react-icons/io5";
-
+import { FaRegClock as Clock } from "react-icons/fa";
 export {
   Visa,
   MasterCard,
@@ -57,4 +57,5 @@ export {
   Twitter2,
   ArrowRight,
   ArrowLeft,
+  Clock,
 };

@@ -1,5 +1,3 @@
-import "../style/brand.scss";
-
 function About() {
   return (
     <main className="brand">

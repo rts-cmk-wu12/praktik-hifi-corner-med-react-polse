@@ -1,8 +1,9 @@
 @use "./frongtpageshop/shopgrid.scss";
-@use "./front-page/hero.scss";
+@use "./hero.scss";
+@use "./brand.scss";
+@use "./contact.scss";
 
-@import url(../fonts/museo-sans-rounded-webfont/style.css);
-
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@100..900&display=swap");
 * {
   padding: 0;
   margin: 0;
@@ -14,5 +15,5 @@ html {
 }
 
 body {
-  font-family: "Museo Sans Rounded 100";
+  font-family: "Heebo", sans-serif;
 }
